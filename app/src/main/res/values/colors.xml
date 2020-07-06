@@ -3,13 +3,21 @@
     <!--Screen background color-->
     <color name="slidescreen">#ffffff</color>
 
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimary">#2991FD</color>
+    <color name="colorPrimaryDark">#2196F3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="lighter_gray">#ddd</color>
     <color name="white">#fff</color>
     <color name="black">#000</color>
     <color name="grey">#FF777777</color>
+
+    <!-- Login -->
+    <color name="login_text_color_hint">#5E000000</color>
+    <color name="login_text_color">#DE000000</color>
+
+    <!-- Registrasi -->
+    <color name="registrasi_text_color_hint">#5E000000</color>
+    <color name="registrasi_text_color">#DE000000</color>
 
     <!-- dots inactive colors -->
     <color name="dot_dark_screen1">#FFFFF0</color>

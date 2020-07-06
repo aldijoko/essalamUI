@@ -11,6 +11,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        /* Register layout */
+        //setContentView(R.layout.activity_registrasi)
+
         setContentView(R.layout.layout_splash)
         Handler().postDelayed(
             {

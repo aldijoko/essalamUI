@@ -14,7 +14,7 @@
         android:orientation="vertical"
         android:gravity="start">
         <ImageView
-            android:src="@drawable/shape_circle"
+            android:src="@drawable/menu_umroh"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginHorizontal="16dp"
@@ -31,7 +31,7 @@
         android:orientation="vertical"
         android:gravity="start">
         <ImageView
-            android:src="@drawable/shape_circle"
+            android:src="@drawable/menu_zakat"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginHorizontal="16dp"
@@ -48,7 +48,7 @@
         android:orientation="vertical"
         android:gravity="start">
         <ImageView
-            android:src="@drawable/shape_circle"
+            android:src="@drawable/menu_wakaf"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginHorizontal="16dp"
@@ -65,7 +65,7 @@
         android:orientation="vertical"
         android:gravity="start">
         <ImageView
-            android:src="@drawable/shape_circle"
+            android:src="@drawable/menu_donasi"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginHorizontal="16dp"
@@ -82,7 +82,7 @@
         android:orientation="vertical"
         android:gravity="start">
         <ImageView
-            android:src="@drawable/shape_circle"
+            android:src="@drawable/menu_jadwal"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginHorizontal="16dp"
@@ -99,7 +99,7 @@
         android:orientation="vertical"
         android:gravity="start">
         <ImageView
-            android:src="@drawable/shape_circle"
+            android:src="@drawable/menu_kiblat"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginHorizontal="16dp"
@@ -116,7 +116,7 @@
         android:orientation="vertical"
         android:gravity="start">
         <ImageView
-            android:src="@drawable/shape_circle"
+            android:src="@drawable/menu_tiket"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginHorizontal="16dp"
@@ -132,8 +132,16 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="start">
+<!--        <com.yinglan.shadowimageview.ShadowImageView-->
+<!--            app:shadowSrc="@drawable/menu_qurban"-->
+<!--            app:shadowRound="@dimen/dp_20"-->
+<!--            app:shadowColor="@color/grey"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginHorizontal="16dp"-->
+<!--            android:layout_marginVertical="8dp" />-->
         <ImageView
-            android:src="@drawable/shape_circle"
+            android:src="@drawable/menu_qurban"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginHorizontal="16dp"

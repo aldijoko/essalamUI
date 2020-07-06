@@ -1,6 +1,6 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -9,7 +9,49 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Label" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="InputText" parent="android:Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Label.Registrasi" parent="Label">
+        <item name="android:textSize">@dimen/standard_font_size</item>
+        <item name="android:textColor">@color/registrasi_text_color</item>
+        <item name="android:layout_marginTop">@dimen/registrasi_edit_text_margin_top</item>
+    </style>
+
+    <style name="InputText.Registrasi" parent="InputText">
+        <item name="android:textSize">@dimen/standard_font_size</item>
+        <item name="android:textColor">@color/registrasi_text_color</item>
+        <item name="android:textColorHint">@color/registrasi_text_color_hint</item>
+        <item name="android:background">@drawable/custom_bg_edit_text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:padding">@dimen/registrasi_edit_text_padding</item>
+        <item name="android:layout_marginTop">@dimen/registrasi_edit_text_margin_top</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+
+    <style name="LabelToolbar" parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 </resources>

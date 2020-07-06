@@ -25,4 +25,17 @@
     <dimen name="dp_2">2dp</dimen>
     <dimen name="dp_120">120dp</dimen>
     <dimen name="dp_110">110dp</dimen>
+    <dimen name="standard_height_input_button">48dp</dimen>
+    <dimen name="standard_font_size">14sp</dimen>
+
+    <!-- Login -->
+    <dimen name="login_margin_left_right">32dp</dimen>
+    <dimen name="login_icon_margin_top">32dp</dimen>
+    <dimen name="login_text_button_margin">10dp</dimen>
+    <dimen name="login_text_padding_left_right">16dp</dimen>
+
+    <!-- Registrasi -->
+    <dimen name="registrasi_margin">15dp</dimen>
+    <dimen name="registrasi_edit_text_margin_top">8dp</dimen>
+    <dimen name="registrasi_edit_text_padding">10dp</dimen>
 </resources>

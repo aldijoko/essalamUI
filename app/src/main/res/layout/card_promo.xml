@@ -13,4 +13,5 @@
         android:layout_height="wrap_content"
         android:src="@drawable/umroh1"
         android:scaleType="centerCrop" />
+
 </androidx.cardview.widget.CardView>
