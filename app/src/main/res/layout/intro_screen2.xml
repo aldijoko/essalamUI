@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/slidescreen">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/gbrsdkh"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_40"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide2_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:paddingLeft="@dimen/dp_50"
+            android:paddingRight="@dimen/dp_40"
+            android:text="@string/slide2_desc"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/gbrsdkh"
+        android:layout_height="350dp"
+        android:layout_marginTop="@dimen/dp_40"
+        android:src="@mipmap/onboarding_donasi" />
+
+</RelativeLayout>

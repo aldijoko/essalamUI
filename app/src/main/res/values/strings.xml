@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">essalamUI</string>
+    <string name="start">Mulai</string>
+    <string name="slide1_title">Jadwal Sholat dan Arah Qiblat</string>
+    <string name="slide1_desc">Awali setiap aktivitas dengan selalu sholat tepat waktu dan hal bermanfaat</string>
+    <string name="slide2_title">Zakat, Wakaf, dan Donasi</string>
+    <string name="slide2_desc">Sesungguhnya sedekahnya orang muslim itu memanjangkan umur dan menghapus sifat sombong</string>
+    <string name="slide3_title">Daftar Umrah</string>
+    <string name="slide3_desc">Antara umrah yang satu dengan yang lainnya, itu akan menghapus dosa diantara keduanya</string>
+
     <string name="logo">ESalaam</string>
+    <string name="umroh">Umroh</string>
+    <string name="zakat_infaq">Zakat/Infaq</string>
+    <string name="wakaf_uang">Wakaf Uang</string>
+    <string name="donasi">Donasi</string>
+    <string name="jadwal_shalat">Jadwal Sholat</string>
+    <string name="arah_kiblat">Arah Kiblat</string>
+    <string name="event">Event</string>
+    <string name="qurban_aqiqah">Qurban dan Aqiqah</string>
 </resources>
