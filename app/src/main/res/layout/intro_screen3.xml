@@ -5,8 +5,8 @@
     android:background="@color/slidescreen">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:layout_below="@+id/gbrumrah"
         android:gravity="center_horizontal"
@@ -32,14 +32,15 @@
             android:textColor="@android:color/black"
             android:gravity="center_horizontal"/>
 
+
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Mulai"
+            android:layout_marginTop="@dimen/dp_100"
             android:textSize="@dimen/sp_16"
-            android:layout_alignParentBottom="true"
-            android:layout_centerInParent="true"
-            android:background="@color/dot_light_screen1"
+            android:background="@android:color/holo_red_dark"
             android:textColor="@color/slidescreen"
             />
 
