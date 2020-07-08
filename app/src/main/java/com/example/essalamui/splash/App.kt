@@ -1,4 +1,4 @@
-package com.example.essalamui.Splash
+package com.example.essalamui.splash
 
 import android.app.Application
 

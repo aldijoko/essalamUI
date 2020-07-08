@@ -1,4 +1,4 @@
-package com.example.essalamui.Splash
+package com.example.essalamui.splash
 
 object Constants {
     val IS_FIRST_TIME = "is_first_time"

@@ -1,22 +1,15 @@
-package com.example.essalamui.Splash
+package com.example.essalamui.splash
 
-import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.text.Html
-import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
 import com.example.essalamui.R
 import com.example.essalamui.beranda.view.BerandaActivity
-import java.text.FieldPosition
 
 class WelcomeActivity : AppCompatActivity() {
 
